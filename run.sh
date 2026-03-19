@@ -48,10 +48,10 @@ start_all() {
   fi
   "$BACKEND_DIR/venv/bin/pip" install -q -r "$BACKEND_DIR/requirements.txt"
 
-  nohup bash -c "cd '$BACKEND_DIR' && '$BACKEND_DIR/venv/bin/python' -m uvicorn main:app --host 0.0.0.0 --port 8000" \
+  nohup bash -c "cd '$BACKEND_DIR' && '$BACKEND_DIR/venv/bin/python' -m uvicorn main:app --host 0.0.0.0 --port 8066" \
     > "$PROJECT_DIR/backend.log" 2>&1 &
   echo $! > "$PID_DIR/backend.pid"
-  echo "  后端已启动 (PID $!) → http://0.0.0.0:8000"
+  echo "  后端已启动 (PID $!) → http://0.0.0.0:8066"
   echo "  日志: tail -f $PROJECT_DIR/backend.log"
 
   echo "========== 启动前端 =========="
