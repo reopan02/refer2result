@@ -1,0 +1,663 @@
+[2026-03-18 22:28:28,965] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 202603181428289699310704QkEOjiD)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    recognize_response = recognize_llm.invoke(recognize_messages)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 202603181428289699310704QkEOjiD)', 'type': 'new_api_error'}}
+[2026-03-18 22:29:20,222] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318142920312848390rZCcu9QC)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    recognize_response = recognize_llm.invoke(recognize_messages)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318142920312848390rZCcu9QC)', 'type': 'new_api_error'}}
+[2026-03-18 22:33:59,726] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318143359812423042rNjBsQqP)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    )
+      
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318143359812423042rNjBsQqP)', 'type': 'new_api_error'}}
+[2026-03-18 22:34:37,029] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 2026031814343796729628AmSy1h75)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    )
+      
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 2026031814343796729628AmSy1h75)', 'type': 'new_api_error'}}
+[2026-03-18 22:41:43,460] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318144143541509489ByRLcrkY)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    "type": "image_url",
+         ^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318144143541509489ByRLcrkY)', 'type': 'new_api_error'}}
+[2026-03-18 22:42:14,692] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318144214762627385qs0gWSrB)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 168, in style_transfer
+    "type": "image_url",
+         ^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-2.5-flash under group 绘画base64 (distributor) (request id: 20260318144214762627385qs0gWSrB)', 'type': 'new_api_error'}}
+[2026-03-18 22:55:55,039] INFO  第一步完成 — 目标图识别结果:
+这张图像中的角色是一个具有植物特征的拟人化生物，主要外貌特征如下：
+
+*   **面部与头部：** 肤色白皙，拥有草绿色短发，黑色的大眼睛，表情开朗；头部戴着一顶类似粉色花瓣组成的“花苞”帽子。
+*   **躯干：** 身穿一件黄绿色相间的紧身服饰，胸口处有花苞状的装饰。
+*   **四肢与体态：** 四肢修长，双腿呈交叉姿态；手臂及下身装束融合了花瓣元素，整体造型酷似一朵盛开的百合花或兰花。
+*   **整体风格：** 整体配色以粉色、白色和嫩绿色为主，充满自然与花卉的生命力，具有明显的动漫风格设计。
+[2026-03-18 22:55:55,041] INFO  第二步 — 拼接后的完整提示词:
+目标图："这张图像中的角色是一个具有植物特征的拟人化生物，主要外貌特征如下：
+
+*   **面部与头部：** 肤色白皙，拥有草绿色短发，黑色的大眼睛，表情开朗；头部戴着一顶类似粉色花瓣组成的“花苞”帽子。
+*   **躯干：** 身穿一件黄绿色相间的紧身服饰，胸口处有花苞状的装饰。
+*   **四肢与体态：** 四肢修长，双腿呈交叉姿态；手臂及下身装束融合了花瓣元素，整体造型酷似一朵盛开的百合花或兰花。
+*   **整体风格：** 整体配色以粉色、白色和嫩绿色为主，充满自然与花卉的生命力，具有明显的动漫风格设计。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 22:56:02,942] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 2026031814560296043153445MGIe0W)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 227, in style_transfer
+    response = image_llm.invoke(transfer_messages)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 2026031814560296043153445MGIe0W)', 'type': 'new_api_error'}}
+[2026-03-18 22:58:04,660] INFO  第一步完成 — 目标图识别结果:
+这张图片中的人物是数码宝贝中的**莉莉兽（Lillymon）**，其外貌特征如下：
+
+*   **头部与发型**：拥有一头绿色的短发，头戴一顶由粉色花瓣构成的花苞状头饰，外形类似一朵盛开的百合。
+*   **面部特征**：拥有大而黑的眼睛，表情甜美开朗，嘴部张开呈微笑状。
+*   **服饰与构造**：身着类似连体衣的黄色与绿色相间的装束，背部伸展出巨大的、如蝴蝶翅膀般的粉色花瓣。
+*   **肢体与配色**：躯干和四肢为淡粉色，皮肤质感光滑。左手握着一朵白色的小花，整体造型呈现出花中精灵的形象，色彩以明亮的粉色、绿色和黄色为主。
+[2026-03-18 22:58:04,661] INFO  第二步 — 拼接后的完整提示词:
+目标图："这张图片中的人物是数码宝贝中的**莉莉兽（Lillymon）**，其外貌特征如下：
+
+*   **头部与发型**：拥有一头绿色的短发，头戴一顶由粉色花瓣构成的花苞状头饰，外形类似一朵盛开的百合。
+*   **面部特征**：拥有大而黑的眼睛，表情甜美开朗，嘴部张开呈微笑状。
+*   **服饰与构造**：身着类似连体衣的黄色与绿色相间的装束，背部伸展出巨大的、如蝴蝶翅膀般的粉色花瓣。
+*   **肢体与配色**：躯干和四肢为淡粉色，皮肤质感光滑。左手握着一朵白色的小花，整体造型呈现出花中精灵的形象，色彩以明亮的粉色、绿色和黄色为主。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 22:59:37,970] INFO  风格迁移完成 — 模型: gemini-3.1-flash-image-preview | 返回图像: 有 | 返回文本长度: 492433
+[2026-03-18 23:02:18,058] INFO  第一步完成 — 目标图识别结果:
+这是一幅具有拟人化特征的动漫风格角色图像，其外貌特征可以概括为：
+
+*   **整体形象：** 角色呈现出“花仙子”般的造型，融合了花卉与少女的形态，整体配色以粉色、白色、黄色和绿色为主。
+*   **头部特征：** 戴着一顶形似粉色花苞的头盔或头饰，露出内部的绿色短发和黑色的大眼睛；面部表情开朗、嘴巴微张。
+*   **躯干特征：** 穿着黄绿相间的紧身衣（或其皮肤本身具有此类花卉纹理），领口处有类似花萼的装饰，整体轮廓修长。
+*   **四肢与动态：** 双腿纤长，下方连接着花瓣状的结构；左手持有一朵巨大的白色五瓣花，周围散落着多片花瓣，营造出飘逸的动感。
+[2026-03-18 23:02:18,059] INFO  第二步 — 拼接后的完整提示词:
+目标图："这是一幅具有拟人化特征的动漫风格角色图像，其外貌特征可以概括为：
+
+*   **整体形象：** 角色呈现出“花仙子”般的造型，融合了花卉与少女的形态，整体配色以粉色、白色、黄色和绿色为主。
+*   **头部特征：** 戴着一顶形似粉色花苞的头盔或头饰，露出内部的绿色短发和黑色的大眼睛；面部表情开朗、嘴巴微张。
+*   **躯干特征：** 穿着黄绿相间的紧身衣（或其皮肤本身具有此类花卉纹理），领口处有类似花萼的装饰，整体轮廓修长。
+*   **四肢与动态：** 双腿纤长，下方连接着花瓣状的结构；左手持有一朵巨大的白色五瓣花，周围散落着多片花瓣，营造出飘逸的动感。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:03:39,468] INFO  风格迁移完成 — 模型: gemini-3.1-flash-image-preview | 返回图像: 有 | 返回文本长度: 647345
+[2026-03-18 23:06:10,234] INFO  第一步完成 — 目标图识别结果:
+图像中的角色是一个**黄色的、卡通化的恐龙或爬行动物**。
+
+主要特征如下：
+1.  **身体颜色**：全身呈鲜艳的橙黄色或黄色。
+2.  **面部**：头部较大，脸部表情活泼，嘴巴大张，露出粉红色的口腔和一排排尖锐的白色三角形牙齿。
+3.  **眼睛**：眼睛又大又圆，呈明亮的翠绿色，瞳孔为黑色，显得炯炯有神。
+4.  **四肢**：四肢粗壮有力，每只手和脚都长有三根白色或银灰色的尖锐利爪。
+5.  **体型**：体态健壮，略显矮胖，背部和颈部有小小的凸起。
+
+整体形象充满活力和野性。
+[2026-03-18 23:06:10,234] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中的角色是一个**黄色的、卡通化的恐龙或爬行动物**。
+
+主要特征如下：
+1.  **身体颜色**：全身呈鲜艳的橙黄色或黄色。
+2.  **面部**：头部较大，脸部表情活泼，嘴巴大张，露出粉红色的口腔和一排排尖锐的白色三角形牙齿。
+3.  **眼睛**：眼睛又大又圆，呈明亮的翠绿色，瞳孔为黑色，显得炯炯有神。
+4.  **四肢**：四肢粗壮有力，每只手和脚都长有三根白色或银灰色的尖锐利爪。
+5.  **体型**：体态健壮，略显矮胖，背部和颈部有小小的凸起。
+
+整体形象充满活力和野性。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:06:15,669] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 202603181506157018459695VmDB4Go)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 227, in style_transfer
+    result_image = extract_image_from_response(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 202603181506157018459695VmDB4Go)', 'type': 'new_api_error'}}
+[2026-03-18 23:12:52,910] INFO  第一步完成 — 目标图识别结果:
+图像中的人物是一个卡通风格的黄色两足生物，形似小型恐龙或蜥蜴。
+
+**主要外貌特征如下：**
+
+*   **体色：** 身体主体呈鲜亮的橙黄色，具有光滑的质感和明显的光影效果。
+*   **头部：** 头部较大，眼睛圆润，呈醒目的翠绿色，内有黑色瞳孔和白色反光点，显得非常有神。
+*   **面部：** 嘴巴大张，露出粉红色的口腔和一排排锋利、尖锐的白色牙齿。鼻孔不明显，呈两个小点。
+*   **四肢：** 手臂和腿部都较粗壮，每只手和脚上都长有三根长而尖锐的白色爪子，显得强劲有力。
+*   **整体姿态：** 身体微微前倾，四肢张开，尾巴短小，整体形象充满活力和动感，仿佛正在奔跑或跳跃。
+[2026-03-18 23:12:52,911] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中的人物是一个卡通风格的黄色两足生物，形似小型恐龙或蜥蜴。
+
+**主要外貌特征如下：**
+
+*   **体色：** 身体主体呈鲜亮的橙黄色，具有光滑的质感和明显的光影效果。
+*   **头部：** 头部较大，眼睛圆润，呈醒目的翠绿色，内有黑色瞳孔和白色反光点，显得非常有神。
+*   **面部：** 嘴巴大张，露出粉红色的口腔和一排排锋利、尖锐的白色牙齿。鼻孔不明显，呈两个小点。
+*   **四肢：** 手臂和腿部都较粗壮，每只手和脚上都长有三根长而尖锐的白色爪子，显得强劲有力。
+*   **整体姿态：** 身体微微前倾，四肢张开，尾巴短小，整体形象充满活力和动感，仿佛正在奔跑或跳跃。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:12:58,272] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 2026031815125819086917522ogmygk)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 227, in style_transfer
+    result_image = extract_image_from_response(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 2026031815125819086917522ogmygk)', 'type': 'new_api_error'}}
+[2026-03-18 23:13:10,067] INFO  第一步完成 — 目标图识别结果:
+图像中的人物是一个卡通风格的恐龙状生物，名为亚古兽（Agumon）。
+
+**外貌特征：**
+
+*   **体色：** 主体呈鲜亮的橙黄色。
+*   **眼睛：** 大而圆，呈翠绿色（或祖母绿色），瞳孔为黑色，带有白色高光，显得炯炯有神。
+*   **嘴巴：** 宽大张开，露出粉红色的口腔内部和一排排锋利的白色尖牙。
+*   **肢体：** 四肢粗短但结实，末端有三根锐利的白色爪子。
+*   **整体：** 造型活泼，头部较大，身体略显圆润，带有小小的尾巴。姿态充满动感和力量感。
+[2026-03-18 23:13:10,068] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中的人物是一个卡通风格的恐龙状生物，名为亚古兽（Agumon）。
+
+**外貌特征：**
+
+*   **体色：** 主体呈鲜亮的橙黄色。
+*   **眼睛：** 大而圆，呈翠绿色（或祖母绿色），瞳孔为黑色，带有白色高光，显得炯炯有神。
+*   **嘴巴：** 宽大张开，露出粉红色的口腔内部和一排排锋利的白色尖牙。
+*   **肢体：** 四肢粗短但结实，末端有三根锐利的白色爪子。
+*   **整体：** 造型活泼，头部较大，身体略显圆润，带有小小的尾巴。姿态充满动感和力量感。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:13:15,586] ERROR  风格迁移失败: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 20260318151315558165770O0kwAqST)', 'type': 'new_api_error'}}
+Traceback (most recent call last):
+  File "E:\code\refer2result\backend\main.py", line 227, in style_transfer
+    result_image = extract_image_from_response(response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1025, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 842, in generate
+    self._generate_with_cache(
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1091, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 781, in _generate
+    response = self.client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\refer2result\venv\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model gemini-3-pro-image under group 绘画base64 (distributor) (request id: 20260318151315558165770O0kwAqST)', 'type': 'new_api_error'}}
+[2026-03-18 23:13:58,076] INFO  第一步完成 — 目标图识别结果:
+图像中描绘的是一只**橙黄色**的类恐龙生物，身体线条圆润。
+
+它有着一对**炯炯有神的绿色大眼睛**，眼珠黑亮，透露出活泼的神情。嘴巴**大张着**，露出内部粉红色的口腔、红色的舌头以及一排排**尖锐的白色牙齿**，显得十分兴奋或是在发出吼声。
+
+它的四肢粗壮有力，前端长有**锋利的灰白色爪子**。尾巴短小。
+
+整体姿态呈现出向前冲刺或跳跃的动感，充满了活力。
+[2026-03-18 23:13:58,076] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中描绘的是一只**橙黄色**的类恐龙生物，身体线条圆润。
+
+它有着一对**炯炯有神的绿色大眼睛**，眼珠黑亮，透露出活泼的神情。嘴巴**大张着**，露出内部粉红色的口腔、红色的舌头以及一排排**尖锐的白色牙齿**，显得十分兴奋或是在发出吼声。
+
+它的四肢粗壮有力，前端长有**锋利的灰白色爪子**。尾巴短小。
+
+整体姿态呈现出向前冲刺或跳跃的动感，充满了活力。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:14:38,050] INFO  风格迁移完成 — 模型: gemini-3.1-flash-image-preview | 返回图像: 有 | 返回文本长度: 593357
+[2026-03-18 23:14:50,726] INFO  第一步完成 — 目标图识别结果:
+图像中的人物是一只**亮黄色/橘黄色**、外形酷似**小型恐龙**的生物。
+
+其主要特征包括：
+1.  **颜色**：全身主体为明亮的黄色或橘黄色。
+2.  **头部与面部**：拥有一双**硕大且炯炯有神的翠绿色眼睛**，眼球中央有黑色瞳孔。嘴巴**张得很大**，露出**粉红色的口腔内部**和一排排**尖锐的白色牙齿**。
+3.  **四肢与爪子**：四肢显得**粗壮有力**，手和脚上都长有**锋利的白色爪子**（每只手/脚可见三根）。
+4.  **整体神态**：表情**生动活泼**，仿佛正在奔跑或做出有力的动作，充满活力。
+[2026-03-18 23:14:50,727] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中的人物是一只**亮黄色/橘黄色**、外形酷似**小型恐龙**的生物。
+
+其主要特征包括：
+1.  **颜色**：全身主体为明亮的黄色或橘黄色。
+2.  **头部与面部**：拥有一双**硕大且炯炯有神的翠绿色眼睛**，眼球中央有黑色瞳孔。嘴巴**张得很大**，露出**粉红色的口腔内部**和一排排**尖锐的白色牙齿**。
+3.  **四肢与爪子**：四肢显得**粗壮有力**，手和脚上都长有**锋利的白色爪子**（每只手/脚可见三根）。
+4.  **整体神态**：表情**生动活泼**，仿佛正在奔跑或做出有力的动作，充满活力。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+简而言之：只改"怎么画"，不改"画的是谁"。
+[2026-03-18 23:17:02,193] INFO  第一步完成 — 目标图识别结果:
+这幅图像描绘了一个橙黄色的卡通恐龙形象，特征鲜明：
+
+1.  **颜色和整体形态：** 主体为鲜艳的橙黄色，身体圆润结实，呈恐龙状。
+2.  **头部特征：** 拥有明亮的大绿色眼睛，瞳孔为黑色，显得活泼有神。嘴巴大大张开，露出锋利的白色三角形牙齿和粉红色的舌头，表情显得兴奋或充满活力。
+3.  **四肢和爪子：** 四肢粗壮，前肢和后肢都带有三根白色尖锐的爪子，十分显眼。
+4.  **姿态：** 整体姿态呈向前扑或奔跑状，充满了动感。
+[2026-03-18 23:17:02,194] INFO  第二步 — 拼接后的完整提示词:
+目标图："这幅图像描绘了一个橙黄色的卡通恐龙形象，特征鲜明：
+
+1.  **颜色和整体形态：** 主体为鲜艳的橙黄色，身体圆润结实，呈恐龙状。
+2.  **头部特征：** 拥有明亮的大绿色眼睛，瞳孔为黑色，显得活泼有神。嘴巴大大张开，露出锋利的白色三角形牙齿和粉红色的舌头，表情显得兴奋或充满活力。
+3.  **四肢和爪子：** 四肢粗壮，前肢和后肢都带有三根白色尖锐的爪子，十分显眼。
+4.  **姿态：** 整体姿态呈向前扑或奔跑状，充满了动感。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:17:29,403] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 653949
+[2026-03-18 23:17:40,950] INFO  第一步完成 — 目标图识别结果:
+图像描绘了一个黄色的卡通恐龙状生物，具有以下外貌特征：
+
+1.  **颜色与体型：** 主体为鲜艳的亮黄色，体型敦实可爱，呈现出类似幼年恐龙或蜥蜴的形态。
+2.  **头部与面部：** 头部较大，眼睛是其显著特征，呈明亮的翠绿色，瞳孔为黑色并带有白色高光。嘴巴宽大咧开，露出许多锋利的白色尖牙和粉红色的口腔内部。鼻孔较小，位于吻部上方。
+3.  **四肢与爪子：** 四肢粗短有力，每只手和脚都长有三根突出且锐利的银白色爪子。
+4.  **背部与尾巴：** 背部和头部后方有不明显的黄色小突起，尾巴短小呈锥形。
+5.  **整体神态：** 整体姿态动态感十足，表情显得非常活泼、兴奋或开心。
+[2026-03-18 23:17:40,950] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像描绘了一个黄色的卡通恐龙状生物，具有以下外貌特征：
+
+1.  **颜色与体型：** 主体为鲜艳的亮黄色，体型敦实可爱，呈现出类似幼年恐龙或蜥蜴的形态。
+2.  **头部与面部：** 头部较大，眼睛是其显著特征，呈明亮的翠绿色，瞳孔为黑色并带有白色高光。嘴巴宽大咧开，露出许多锋利的白色尖牙和粉红色的口腔内部。鼻孔较小，位于吻部上方。
+3.  **四肢与爪子：** 四肢粗短有力，每只手和脚都长有三根突出且锐利的银白色爪子。
+4.  **背部与尾巴：** 背部和头部后方有不明显的黄色小突起，尾巴短小呈锥形。
+5.  **整体神态：** 整体姿态动态感十足，表情显得非常活泼、兴奋或开心。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:18:11,687] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 666329
+[2026-03-18 23:19:35,045] INFO  第一步完成 — 目标图识别结果:
+这只角色是一个**鲜亮的橙黄色恐龙状数码兽**。
+
+主要特征包括：
+*   **颜色**: 身体主色调为明亮的橙黄色。
+*   **眼睛**: 拥有两只硕大的、充满神采的**绿色圆眼睛**，瞳孔为黑色。
+*   **嘴巴**: 嘴巴张开，露出粉红色的舌头和一排**尖锐的白色三角形牙齿**。
+*   **四肢与爪子**: 四肢粗壮，每只手和脚都长有**三根锋利的白色爪子**。
+*   **体型**: 整体形象结实，头部较大，背部有小小的突起。
+
+整体显得活泼、充满活力。
+[2026-03-18 23:19:35,045] INFO  第二步 — 拼接后的完整提示词:
+目标图："这只角色是一个**鲜亮的橙黄色恐龙状数码兽**。
+
+主要特征包括：
+*   **颜色**: 身体主色调为明亮的橙黄色。
+*   **眼睛**: 拥有两只硕大的、充满神采的**绿色圆眼睛**，瞳孔为黑色。
+*   **嘴巴**: 嘴巴张开，露出粉红色的舌头和一排**尖锐的白色三角形牙齿**。
+*   **四肢与爪子**: 四肢粗壮，每只手和脚都长有**三根锋利的白色爪子**。
+*   **体型**: 整体形象结实，头部较大，背部有小小的突起。
+
+整体显得活泼、充满活力。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:20:04,593] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 561865
+[2026-03-18 23:20:17,268] INFO  第一步完成 — 目标图识别结果:
+图像中是一个**黄橙色**的卡通恐龙状生物，具有以下外貌特征：
+
+1.  **体色与皮肤：** 身体呈明亮的橙黄色，皮肤光滑，无明显纹理。
+2.  **头部与面部：** 头部较大，嘴巴张开，露出粉色的舌头和一排锋利的白色尖牙，呈咧嘴笑的表情，显得活泼。
+3.  **眼睛：** 拥有一双大而圆的翠绿色眼睛，瞳孔为黑色，眼神明亮。
+4.  **四肢与爪子：** 四肢粗壮，每只手和脚都带有三根长而锋利的白色爪子。
+5.  **背部与尾巴：** 背部有一排小的尖刺状突起，尾巴短小。
+6.  **整体姿态：** 身体前倾，作奔跑或扑向前的动态姿势，充满活力。
+[2026-03-18 23:20:17,269] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中是一个**黄橙色**的卡通恐龙状生物，具有以下外貌特征：
+
+1.  **体色与皮肤：** 身体呈明亮的橙黄色，皮肤光滑，无明显纹理。
+2.  **头部与面部：** 头部较大，嘴巴张开，露出粉色的舌头和一排锋利的白色尖牙，呈咧嘴笑的表情，显得活泼。
+3.  **眼睛：** 拥有一双大而圆的翠绿色眼睛，瞳孔为黑色，眼神明亮。
+4.  **四肢与爪子：** 四肢粗壮，每只手和脚都带有三根长而锋利的白色爪子。
+5.  **背部与尾巴：** 背部有一排小的尖刺状突起，尾巴短小。
+6.  **整体姿态：** 身体前倾，作奔跑或扑向前的动态姿势，充满活力。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:21:04,495] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 522717
+[2026-03-18 23:22:21,963] INFO  第一步完成 — 目标图识别结果:
+图中角色为数码宝贝系列中的经典角色**亚古兽 (Agumon)**，其外貌特征如下：
+
+*   **体型肤色**：小型恐龙外观，全身覆盖着明亮的橙黄色皮肤，腹部呈淡黄色。
+*   **头部特征**：长有像蜥蜴一样的头部，拥有一双大而圆的翠绿色眼睛，嘴部宽大，内有锋利的白色尖牙。
+*   **四肢结构**：拥有两足站立的姿态，四肢末端各有三根锐利、白色的钩状爪子。
+*   **整体气质**：姿态活泼，呈向前奔跑或扑击的动态，表情看起来既凶猛又带有几分憨厚可爱。
+[2026-03-18 23:22:21,964] INFO  第二步 — 拼接后的完整提示词:
+目标图："图中角色为数码宝贝系列中的经典角色**亚古兽 (Agumon)**，其外貌特征如下：
+
+*   **体型肤色**：小型恐龙外观，全身覆盖着明亮的橙黄色皮肤，腹部呈淡黄色。
+*   **头部特征**：长有像蜥蜴一样的头部，拥有一双大而圆的翠绿色眼睛，嘴部宽大，内有锋利的白色尖牙。
+*   **四肢结构**：拥有两足站立的姿态，四肢末端各有三根锐利、白色的钩状爪子。
+*   **整体气质**：姿态活泼，呈向前奔跑或扑击的动态，表情看起来既凶猛又带有几分憨厚可爱。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:22:53,660] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 791905
+[2026-03-18 23:22:58,337] INFO  第一步完成 — 目标图识别结果:
+图像中的角色是《数码宝贝》中的经典角色——**亚古兽 (Agumon)**。其外貌特征如下：
+
+*   **体色与形态：** 拥有明亮的黄色皮肤，外观类似小型双足恐龙。
+*   **头部特征：** 头部较大，有着圆润的鼻部和宽大的嘴巴，口内有尖锐的牙齿。双眼圆大，呈现出鲜明的绿色。
+*   **肢体结构：** 四肢短粗，每只脚和手上都长有三根灰白色的尖锐利爪。
+*   **姿态：** 角色呈跳跃或前冲的动态，神情欢快活泼，展现出充满能量的战斗形态。
+[2026-03-18 23:22:58,339] INFO  第二步 — 拼接后的完整提示词:
+目标图："图像中的角色是《数码宝贝》中的经典角色——**亚古兽 (Agumon)**。其外貌特征如下：
+
+*   **体色与形态：** 拥有明亮的黄色皮肤，外观类似小型双足恐龙。
+*   **头部特征：** 头部较大，有着圆润的鼻部和宽大的嘴巴，口内有尖锐的牙齿。双眼圆大，呈现出鲜明的绿色。
+*   **肢体结构：** 四肢短粗，每只脚和手上都长有三根灰白色的尖锐利爪。
+*   **姿态：** 角色呈跳跃或前冲的动态，神情欢快活泼，展现出充满能量的战斗形态。"
+请基于参考图的风格对目标图进行重绘，使两者在以下三个维度保持一致：
+艺术风格与流派 — 包括画风、色彩倾向、笔触质感、渲染方式等
+构图与视觉引导 — 包括画面布局、视觉重心、景深层次、留白比例等
+线条艺术 — 包括线条粗细、勾勒方式、描边风格、线条疏密等
+约束条件（最高优先级）：
+严格保留目标图中角色的原始外貌，不做任何修改
+不引入参考图中任何角色的外貌特征
+仅迁移风格，不迁移内容
+[2026-03-18 23:23:33,660] INFO  风格迁移完成 — 模型: gemini-3-pro-image-preview | 返回图像: 有 | 返回文本长度: 782021
