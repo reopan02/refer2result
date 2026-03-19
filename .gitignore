@@ -1,3 +1,6 @@
+# Git ignore itself
+.gitignore
+
 # Test files
 test_langchain.py
 test_image.py
